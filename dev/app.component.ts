@@ -2,10 +2,8 @@ import {Component} from 'angular2/core';
 
 @Component({
     selector: 'my-app',
-    template: `
-        <h1>Angular 2 Boilerplate</h1>
-        <p>Hello World!</p>
-    `,
+    templateUrl: 'dev/index.component.html',
+    styleUrls: ['assets/scss/app.scss'],
 })
 export class AppComponent {
 
